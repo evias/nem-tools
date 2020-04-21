@@ -12,8 +12,9 @@ const httpsServerConfig = [
   {protocol: https, domain: "public.nemchina.com", port: 7891},
   {protocol: https, domain: "frankfurt.nemchina.com", port: 7891},
   {protocol: https, domain: "tokyo.nemchina.com", port: 7891},
-  */
   {protocol: https, domain: "shibuya.supernode.me", port: 7891}
+  */
+  {protocol: https, domain: "mnbhsgwbeta.supernode.me", port: 7891}
 ]
 
 export const accountHttp = new AccountHttp(httpsServerConfig);
